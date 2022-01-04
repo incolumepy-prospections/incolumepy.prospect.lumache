@@ -11,9 +11,10 @@
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 # import os
-# import sys
+import sys
 from pathlib import Path
 # sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, Path(__file__).parents[2].resolve().as_posix())
 
 # -- Project information -----------------------------------------------------
 
@@ -34,6 +35,7 @@ release = root.joinpath(*'incolumepy prospect lumache version.txt'.split()).read
 # ones.
 extensions = [
     'sphinx.ext.duration',
+    'sphinx.ext.doctest',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

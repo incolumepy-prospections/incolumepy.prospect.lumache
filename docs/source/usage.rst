@@ -52,3 +52,7 @@ will raise an exception.
    :raise lumache.InvalidKindError: If the kind is invalid.
    :return: The ingredients list.
    :rtype: list[str]
+
+>>> from incolumepy.prospect.lumache import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
