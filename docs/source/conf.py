@@ -12,8 +12,8 @@
 #
 # import os
 # import sys
+from pathlib import Path
 # sys.path.insert(0, os.path.abspath('.'))
-
 
 # -- Project information -----------------------------------------------------
 
@@ -21,9 +21,11 @@ project = 'Lumache'
 copyright = '2022, Graziella'
 author = 'Graziella'
 
-# The full version, including alpha/beta/rc tags
-release = '0.5'
+# Path the project
+root = Path(__file__).parents[2]
 
+# The full version, including alpha/beta/rc tags
+release = root.joinpath(*'incolumepy prospect lumache version.txt'.split()).read_text().strip()
 
 # -- General configuration ---------------------------------------------------
 
