@@ -34,11 +34,23 @@ release = root.joinpath(*'incolumepy prospect lumache version.txt'.split()).read
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
 ]
+
+# By default, Sphinx only supports 'restructuredtext' file type.
+# You can add a new file type using source parser extensions.
+# The file extensions of source files. Sphinx considers the files with this suffix as sources.
+# The value can be a dictionary mapping file extensions to file types.
+# Please read a document of the extension to know which file type the extension supports.
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
