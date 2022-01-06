@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/index.rst:2
 msgid "Welcome to Lumache's documentation!"
-msgstr ""
+msgstr "Benvindo a documentação Lumache"
 
 #: ../../source/index.rst:4
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../source/index.rst:13
 msgid "This project is under active development."
-msgstr ""
+msgstr "Este projeto esta em desenvolvimento"
 
 #: ../../source/index.rst:15
 msgid ""
@@ -45,5 +45,5 @@ msgstr ""
 
 #: ../../source/index.rst:19
 msgid "Contents"
-msgstr ""
+msgstr "Conteúdos"
 

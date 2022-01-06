@@ -19,61 +19,63 @@ msgstr ""
 
 #: ../../source/usage.rst:2
 msgid "Usage"
-msgstr ""
+msgstr "Utilização"
 
 #: ../../source/usage.rst:7
 msgid "Installation"
-msgstr ""
+msgstr "Instalação"
 
 #: ../../source/usage.rst:9
 msgid "To use Lumache, first install it using pip:"
-msgstr ""
+msgstr "Para usar Lumache, primeiro instale-o utilizando o pip:"
 
 #: ../../source/usage.rst:15
 msgid "or install it using poetry:"
-msgstr ""
+msgstr "ou utilizando o poetry"
 
 #: ../../source/usage.rst:24
 msgid "Creating recipes"
-msgstr ""
+msgstr "Criando receitas"
 
 #: ../../source/usage.rst:26
 msgid ""
 "To retrieve a list of random ingredients, you can use the "
 "``lumache.get_random_ingredients()`` function:"
 msgstr ""
+"Para receber uma listagem de ingredientes aleatória, voce pode usar a função"
+"``lumache.get_random_ingredients()``:"
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients:1 of
 msgid "Return a list of random ingredients as strings."
-msgstr ""
+msgstr "Retorna uma lista de strings com ingredientes aleatórios."
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients of
 msgid "Parameters"
-msgstr ""
+msgstr "Parametros"
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients:3 of
 msgid "Optional \"kind\" of ingredients."
-msgstr ""
+msgstr "Opcional \"kind\" de ingredientes."
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients of
 msgid "Raises"
-msgstr ""
+msgstr "Exceções"
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients:5 of
 msgid "If the kind is invalid."
-msgstr ""
+msgstr "Se kind for inválido."
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients of
 msgid "Returns"
-msgstr ""
+msgstr "Retorno"
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients:6 of
 msgid "The ingredients list."
-msgstr ""
+msgstr "A Lista de ingredientes"
 
 #: incolumepy.prospect.lumache.lumache.get_random_ingredients of
 msgid "Return type"
-msgstr ""
+msgstr "Tipo de retorno"
 
 #: ../../source/usage.rst:31
 msgid ""
@@ -84,9 +86,9 @@ msgstr ""
 
 #: incolumepy.prospect.lumache.lumache.InvalidKindError:1 of
 msgid "Raised if the kind is invalid."
-msgstr ""
+msgstr "Exceção se kind for inválido."
 
 #: ../../source/usage.rst:37
 msgid "**Exemple**"
-msgstr ""
+msgstr "**Exemplo**"
 

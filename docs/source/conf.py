@@ -74,5 +74,6 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 # Internationalization
+gettext_allow_fuzzy_translations = True
 locale_dirs = ['locale/']  # path is example but recommended.
 gettext_compact = False  # optional.
