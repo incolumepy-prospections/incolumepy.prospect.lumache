@@ -17,6 +17,7 @@ Sphinx = "^4.3.2"
 toml = {extras = ["tomli"], version = "^0.10.2"}
 furo = "^2022.1.2"
 myst-parser = "^0.16.1"
+sphinx-intl = "^2.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
